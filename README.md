@@ -10,7 +10,9 @@ added:
 
 * `local.tf`
 * `data.tf`
+* `providers.tf`
 * `templates`
+* `versions.tf`
 
 A [pre-commit][pre-commit] configuration file is present to automatically format
 and validate the code and update the readme file upon Git commits.
@@ -20,20 +22,27 @@ and validate the code and update the readme file upon Git commits.
 
 | Name | Version |
 |------|---------|
-| terraform | >= 0.12.0 |
+| <a name="requirement_terraform"></a> [terraform](#requirement\_terraform) | >= 0.12.0 |
 
 ## Providers
 
-No provider.
+No providers.
+
+## Modules
+
+No modules.
+
+## Resources
+
+No resources.
 
 ## Inputs
 
-No input.
+No inputs.
 
 ## Outputs
 
-No output.
-
+No outputs.
 <!-- END OF PRE-COMMIT-TERRAFORM DOCS HOOK -->
 
  [pre-commit]: https://pre-commit.com/ "pre-commit Website"
